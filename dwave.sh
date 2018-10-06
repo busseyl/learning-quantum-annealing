@@ -5,4 +5,4 @@ docker run -it --rm --name dwave \
   -v "$PWD/src":/usr/local/src/dwave \
   -w /usr/local/src/dwave \
   dwave:latest \
-  dwave config create $@
+  dwave $@
